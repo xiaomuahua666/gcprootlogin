@@ -59,7 +59,7 @@ modify_sshd_config() {
 
 # 函数：重启 SSHD 服务
 restart_sshd_service() {
-    sudo service sshd restart
+    sudo service ssh restart
     check_error "重启 SSHD 服务时出错"
 }
 
